@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attendance</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="/atten/home.html" class="logo">
+                        <img src="/images/logo.png">
+                        <span class="nav-item">Admin</span>
+                    </a></li>
+                <li><a href="/atten/home.html">
+                        <i class="fas fa-menorah"></i>
+                        <span class="nav-item">Dashboard</span>
+                    </a></li>
+                <li><a href="#">
+                        <i class="fas fa-database"></i>
+                        <span class="nav-item">Report</span>
+                    </a></li>
+                <li><a href="/atten/atten.html">
+                        <i class="fas fa-chart-bar"></i>
+                        <span class="nav-item">Attendance</span>
+                    </a></li>
+                <li><a href="#">
+                        <i class="fas fa-cog"></i>
+                        <span class="nav-item">Setting</span>
+                    </a></li>
+
+                <li><a href="#" class="logout">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span class="nav-item">Log out</span>
+                    </a></li>
+            </ul>
+        </nav>
+        <section class="attendance">
+            <div class="attendance-list">
+                <h1>Attendance List</h1>
+                <table class="table">
+                    <tr>
+                        <th>roll number</th>
+                        <td>401</td>
+                        <td>403</td>
+                        <td>405</td>
+                        <td>407</td>
+                        <td>409</td>
+                    </tr>
+                    <tr>
+                        <th>name</th>
+                        <td>sam</td>
+                        <td>kam</td>
+                        <td>ram</td>
+                        <td>nam</td>
+                        <td>pam</td>
+                    </tr>
+                    <tr>
+                        <th>language</th>
+                        <td>html</td>
+                        <td>html</td>
+                        <td>c++</td>
+                        <td>java</td>
+                        <td>python</td>
+                    </tr>
+                    <tr>
+                        <th>date</th>
+                        <td><input type="date"></td>
+                        <td><input type="date"></td>
+                        <td><input type="date"></td>
+                        <td><input type="date"></td>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr class="timein">
+                        <th>time IN</th>
+                        <td><input type="time"></td>
+                        <td><input type="time"></td>
+                        <td><input type="time"></td>
+                        <td><input type="time"></td>
+                        <td><input type="time"></td>
+                    </tr>
+                    <tr>
+                        <th>time out</th>
+                        <td><input type="time"></td>
+                        <td><input type="time"></td>
+                        <td><input type="time"></td>
+                        <td><input type="time"></td>
+                        <td><input type="time"></td>
+                    </tr>
+                    <tr>
+                        <th>present/absent</th>
+                        <td><input type="radio" name="attendance1" value="present">&nbsp;&nbsp;/&nbsp;&nbsp;<input
+                                type="radio" name="attendance1" value="absent"></td>
+                        <td><input type="radio" name="attendance2" value="present">&nbsp;&nbsp;/&nbsp;&nbsp;<input
+                                type="radio" name="attendance2" value="absent"></td>
+                        <td><input type="radio" name="attendance3" value="present">&nbsp;&nbsp;/&nbsp;&nbsp;<input
+                                type="radio" name="attendance3" value="absent"></td>
+                        <td><input type="radio" name="attendance4" value="present">&nbsp;&nbsp;/&nbsp;&nbsp;<input
+                                type="radio" name="attendance4" value="absent"></td>
+                        <td><input type="radio" name="attendance5" value="present">&nbsp;&nbsp;/&nbsp;&nbsp;<input
+                                type="radio" name="attendance5" value="absent"></td>
+                    </tr>
+                    <tr>
+                        <th>submit</th>
+                        <td><button>done</button></td>
+                        <td><button>done</button></td>
+                        <td><button>done</button></td>
+                        <td><button>done</button></td>
+                        <td><button>done</button></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+</body>
+
+</html>
